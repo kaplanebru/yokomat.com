@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <link href="styles.css" rel="stylesheet">
+        <title> Talk to yoko</title>
+        <script>
+            function play(){
+                let audio = document.querySelector("#meow");
+                audio.play();
+
+                let message= document.querySelector("#message");
+
+                let words = [
+                    "<h1><i>Yoko tells you to leave her alone :(</i></h1>",
+                    "<h1><i>Yoko said that you're ugly...</i></h1>",
+                    "<h1><i>Yoko asks for food!</i></h1>",
+                    "<h1><i>Yoko warns you not to follow Isot's path!</b></h1>",
+                    "<h1><i>Yoko said she loves you :)</i></h1>"
+                    ];
+
+                let colors = ["#34557d", "#74b6f2", "#42af5a", "#9472b9", "#1ca3a3"];
+
+                let rand = Math.floor(Math.random() * words.length);
+                message.innerHTML=words[rand];
+                message.style.color = colors[rand];
+
+            }
+        </script>
+    </head>
+    <body id="bodyask">
+        <div class="jumbotron" id="jumbo2"></div>
+
+        <div class="container2">
+                <div class="section2">
+               Feel free to write in any language you wish.
+                <div>Yoko understands all of them as she speaks the language of Gods.</div>
+                <hr>
+                </div>
+
+
+            <p id= "talk">
+            <input type="text" placeholder="Say something to Yokot">
+            <input type="button" value="Go!" onclick="play()">
+            <audio id="meow" src="yoko_sound.ogg"></audio>
+            </p>
+
+
+            <p id="message" onclick="play()"></p>
+
+
+                <div id="moveask">
+                    <select name="move" onchange="location = this.value;">
+                        <option value="move">Move to</option>
+                        <option value="index.html">Homepage</option>
+                        <option value="frenemy.html">Yoko's Frenemies</option>
+                        <option value="askyoko.html">Talk to Yoko</option>
+                    </select>
+                </div>
+        </div>
+        <!--
+        <audio>
+            <source src="yoko_sound.ogg" type="audio/ogg">
+        </audio>
+        -->
+    </body>
+</html>

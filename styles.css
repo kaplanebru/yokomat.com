@@ -1,0 +1,160 @@
+.jumbotron {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-position: center;
+    background-size: cover;
+    color: #74b6f2;
+
+    /*
+    a49d91
+    ecf4f4
+    */
+}
+
+#jumbo{
+    background-color: #fffaf2;
+    background-image: url("p1.png");
+    font-weight: bold;
+    text-shadow: 1px 1px #34557d;
+    background-repeat: repeat;
+    margin-bottom: 0rem;
+}
+
+#jumbo2{
+    background-color: #fffaf2;
+    background-image: url("eyes.jpg");
+    font-weight: bold;
+    text-shadow: 1px 1px #34557d;
+    background-repeat: repeat;
+    margin-bottom: 0rem;
+}
+
+#jumbo3{
+    background-color: #fffaf2;
+    background-image: url("bcat3.png");
+    font-weight: bold;
+    text-shadow: 1px 1px #34557d;
+    background-repeat: repeat;
+    margin-bottom: 0rem;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.section {
+    margin-top: 1rem;
+    padding: 0.5rem 2rem 1rem 2rem;
+    color: #655d4c;
+}
+
+.section2 {
+
+    padding: 0.5rem 2rem 1rem 2rem;
+    color: #a49d91;
+    text-shadow:0.5px 0.5px #5dd1f1;
+}
+
+.section3 {
+    text-indent: 20px;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    color: #747474;
+    text-shadow:0.5px 0.5px #f6c91e;
+}
+
+
+
+#message{
+    color: #34557d;
+}
+
+#bodyiso{
+    background-color:#fafaec;
+}
+
+#bodyask{
+    background-color: #b5ddf375;
+    background-image: url("p3.png");
+    background-position: center;
+    background-size: cover;
+
+}
+.img1 {
+    width: 100%;
+    height: auto;
+    border:3px solid #bddad9
+}
+
+#suspicious {
+
+    color: #a49d91;
+
+}
+
+#rest {
+    text-indent: 20px;
+    color: #a49d91;
+}
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #655d4c;
+  padding: 3px 6px 3px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.buttonarea {
+    background-color: #fffaf2;
+    padding: 1rem 2rem;
+    text-align: center;
+
+}
+
+.iso{
+    color: #171717;
+    padding: 0rem 2rem 1rem 2rem;
+    text-shadow: 1px 1px #f6c91e;
+}
+
+#talk{
+    margin-top: 1rem;
+    position:relative;
+
+
+}
+#moveask{
+    margin-top: 2rem;
+}
+
+#warning{
+    text-align: center;
+}
+
+#summon{
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+input{
+    position: relative;
+}
+
+select{
+    margin-bottom: 5rem;
+}
